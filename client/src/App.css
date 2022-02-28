@@ -40,5 +40,24 @@
 #Table {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  /* gap: 10px; */
+  gap: 0.2rem 0.5rem;
+  padding: 1rem;
+
+  /* > * {
+    padding: 0.5rem 1rem;
+  } */
+}
+
+.rainbow-border {
+  border: 5px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
 }

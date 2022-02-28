@@ -6,16 +6,15 @@ import Card from "./Card";
 class Table extends Component {
   render() {
     const cards = [
-      { id: 1, file: "en_9ronA5Xr9N" },
-      { id: 2, file: "en_J5uEbSmsIj" },
-      { id: 3, file: "en_fYTwiGJW8d" },
-      { id: 4, file: "en_gEnWwqIdOE" },
+      { front: "en_9ronA5Xr9N" },
+      { front: "en_fYTwiGJW8d" },
+      { front: "en_gEnWwqIdOE", back: "en_J5uEbSmsIj" },
     ];
 
     return (
       <div id="Table">
-        {cards.map(({ id, file }) => {
-          return <Card file={file} key={id} />;
+        {cards.map((card, index) => {
+          return <Card card={card} key={index} />;
         })}
       </div>
     );
@@ -49,8 +48,7 @@ class App extends Component {
         <header className="App-header">
           <Table />
         </header>
-        <span>Test</span>
-        <p className="App-intro">{this.state.data}</p>
+        {/* <p className="App-intro">{this.state.data}</p> */}
       </div>
     );
   }

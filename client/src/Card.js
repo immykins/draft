@@ -1,13 +1,19 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-class Card extends Component {
-  render() {
-    return (
-      <div>
-        <img src={require(`./cards/${this.props.file}.png`)} />
-      </div>
-    );
-  }
-}
+const Card = ({ card }) => {
+  const [showFront, setFront] = useState(true);
+
+  const image = showFront || !card.back ? card.front : card.back;
+
+  return (
+    <div
+      onClick={() => {
+        setFront(!showFront);
+      }}
+    >
+      <img src={require(`./cards/${image}.png`)} />
+    </div>
+  );
+};
 
 export default Card;
