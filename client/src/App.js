@@ -1,6 +1,26 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Card from "./Card";
+
+class Table extends Component {
+  render() {
+    const cards = [
+      { id: 1, file: "en_9ronA5Xr9N" },
+      { id: 2, file: "en_J5uEbSmsIj" },
+      { id: 3, file: "en_fYTwiGJW8d" },
+      { id: 4, file: "en_gEnWwqIdOE" },
+    ];
+
+    return (
+      <div id="Table">
+        {cards.map(({ id, file }) => {
+          return <Card file={file} key={id} />;
+        })}
+      </div>
+    );
+  }
+}
 
 class App extends Component {
   state = {
@@ -27,9 +47,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <Table />
         </header>
+        <span>Test</span>
         <p className="App-intro">{this.state.data}</p>
       </div>
     );
