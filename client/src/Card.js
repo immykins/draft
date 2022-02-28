@@ -1,17 +1,24 @@
 import React, { useState } from "react";
+import cx from "classnames";
+import classNames from "classnames";
 
 const Card = ({ card }) => {
-  const [showFront, setFront] = useState(true);
+  // const [showFront, setFront] = useState(true);
 
-  const image = showFront || !card.back ? card.front : card.back;
+  // const image = showFront || !card.back ? card.front : card.back;
 
   return (
-    <div
-      onClick={() => {
-        setFront(!showFront);
-      }}
-    >
-      <img src={require(`./cards/${image}.png`)} />
+    <div className={classNames({ card: true, flippable: !!card.back })}>
+      <div className="card-content">
+        <div className="front">
+          <img src={require(`./cards/${card.front}.png`)} />
+        </div>
+        {card.back && (
+          <div className="back">
+            <img src={require(`./cards/${card.back}.png`)} />
+          </div>
+        )}
+      </div>
     </div>
   );
 };
