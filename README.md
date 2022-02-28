@@ -3,4 +3,4 @@ MTG Draft Simulator
 
 Simulator for real-time, multi-user MTG drafting.
 
-All card images belong to Wizards of the Coast
+This project is [unofficial fan content](https://company.wizards.com/en/legal/fancontentpolicy). Magic: The Gathering and all card images © Wizards of the Coast.
