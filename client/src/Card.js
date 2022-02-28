@@ -3,10 +3,6 @@ import cx from "classnames";
 import classNames from "classnames";
 
 const Card = ({ card }) => {
-  // const [showFront, setFront] = useState(true);
-
-  // const image = showFront || !card.back ? card.front : card.back;
-
   return (
     <div className={classNames({ card: true, flippable: !!card.back })}>
       <div className="card-content">

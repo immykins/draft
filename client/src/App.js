@@ -6,8 +6,10 @@ import Card from "./Card";
 class Table extends Component {
   render() {
     const cards = [
-      // { front: "en_9ronA5Xr9N" },
-      // { front: "en_fYTwiGJW8d" },
+      { front: "en_9ronA5Xr9N" },
+      { front: "en_fYTwiGJW8d" },
+      { front: "en_vp8xmsaSaM", back: "en_w2zhVpEvxs" },
+      { front: "en_u5HnLDTo0g", back: "en_ekujQ2FTdj" },
       { front: "en_gEnWwqIdOE", back: "en_J5uEbSmsIj" },
     ];
 
