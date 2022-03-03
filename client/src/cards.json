@@ -4,6 +4,14 @@
       "name": "Teachings of the Kirin",
       "front": "en_u5HnLDTo0g",
       "back": "en_ekujQ2FTdj"
+    },
+    {
+      "name": "The Wandering Emperor",
+      "front": "en_5RRAZuZSQt"
+    },
+    {
+      "name": "Farewell",
+      "front": "en_9zI7eLrZAb"
     }
   ],
   "uncommons": [
@@ -12,6 +20,14 @@
       "name": "The Long Reach of Night",
       "front": "en_vp8xmsaSaM",
       "back": "en_w2zhVpEvxs"
+    },
+    {
+      "name": "Touch the Spirit Realm",
+      "front": "en_4we6pokk7m"
+    },
+    {
+      "name": "Banishing Slash",
+      "front": "en_33y5RVngyD"
     }
   ],
   "commons": [
@@ -19,6 +35,18 @@
       "name": "Befriending the Moths",
       "front": "en_gEnWwqIdOE",
       "back": "en_J5uEbSmsIj"
+    },
+    {
+      "name": "Sunblade Samurai",
+      "front": "en_3hoboUlfTm"
+    },
+    {
+      "name": "Mothrider Patrol",
+      "front": "en_3TqEVGHv87"
+    },
+    {
+      "name": "Imperial Subduer",
+      "front": "en_6ls2dF3Xls"
     }
   ],
   "lands": [{ "name": "Jungle Hollow", "front": "en_fYTwiGJW8d" }]

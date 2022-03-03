@@ -1,18 +1,22 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Card from "./Card";
 
-// class Set {
-//   constructor(cards) {
-//     this.cards = cards;
-//   }
+class Set {
+  // instantiate by injecting a json of the cards for a set
+  constructor(cardsJSON) {
+    this.cards = JSON.parse(cardsJSON);
+  }
 
-//   // returns a random draft booster from the set
-//   makeBooster() {
-//     this.cards.
-//   }
-// }
+  // returns a random draft booster from the set. A draft booster includes 15 cards with no duplicates:
+  // - 1 rare or mythic rare
+  // - 3 uncommon
+  // - 10 common
+  // - 1 basic land (in neon this includes its dual lands)
+  makeBooster() {
+    //this.cards.
+  }
+}
 
 class Table extends Component {
   render() {
