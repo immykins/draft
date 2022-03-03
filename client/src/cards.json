@@ -1,0 +1,25 @@
+{
+  "rares": [
+    {
+      "name": "Teachings of the Kirin",
+      "front": "en_u5HnLDTo0g",
+      "back": "en_ekujQ2FTdj"
+    }
+  ],
+  "uncommons": [
+    { "name": "Colossal Skyturtle", "front": "en_9ronA5Xr9N" },
+    {
+      "name": "The Long Reach of Night",
+      "front": "en_vp8xmsaSaM",
+      "back": "en_w2zhVpEvxs"
+    }
+  ],
+  "commons": [
+    {
+      "name": "Befriending the Moths",
+      "front": "en_gEnWwqIdOE",
+      "back": "en_J5uEbSmsIj"
+    }
+  ],
+  "lands": [{ "name": "Jungle Hollow", "front": "en_fYTwiGJW8d" }]
+}

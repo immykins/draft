@@ -3,6 +3,17 @@ import logo from "./logo.svg";
 import "./App.css";
 import Card from "./Card";
 
+// class Set {
+//   constructor(cards) {
+//     this.cards = cards;
+//   }
+
+//   // returns a random draft booster from the set
+//   makeBooster() {
+//     this.cards.
+//   }
+// }
+
 class Table extends Component {
   render() {
     const cards = [

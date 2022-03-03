@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import cx from "classnames";
-import classNames from "classnames";
 
 const Card = ({ card }) => {
   return (
-    <div className={classNames({ card: true, flippable: !!card.back })}>
+    <div className={cx({ card: true, flippable: !!card.back })}>
       <div className="card-content">
         <div className="front">
           <img src={require(`./cards/${card.front}.png`)} />
