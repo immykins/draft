@@ -12,6 +12,38 @@
     {
       "name": "Farewell",
       "front": "en_9zI7eLrZAb"
+    },
+    {
+      "name": "Invoke Justice",
+      "front": "en_B5zPlww1tA"
+    },
+    {
+      "name": "Kyodai, Soul of Kamigawa",
+      "front": "en_DXNYoPXQL1"
+    },
+    {
+      "name": "Lion Sash",
+      "front": "en_g3D2htqoQa"
+    },
+    {
+      "name": "Cloudsteel Kirin",
+      "front": "en_j2RpRFb5Pp"
+    },
+    {
+      "name": "Brilliant Restoration",
+      "front": "en_MimjtdRuZV"
+    },
+    {
+      "name": "Ao, the Dawn Sky",
+      "front": "en_qkhDvXZ4I1"
+    },
+    {
+      "name": "Light-Paws, Emperor's Voice",
+      "front": "en_U7VKu2Zfhi"
+    },
+    {
+      "name": "March of the Otherworldly Light",
+      "front": "en_UJRB7e6nzx"
     }
   ],
   "uncommons": [
@@ -28,6 +60,42 @@
     {
       "name": "Banishing Slash",
       "front": "en_33y5RVngyD"
+    },
+    {
+      "name": "Go-Shintai of Shared Purpose",
+      "front": "en_e5QhYbSrZv"
+    },
+    {
+      "name": "Selfless Samurai",
+      "front": "en_g1xZymn2i3"
+    },
+    {
+      "name": "Born to Drive",
+      "front": "en_JdfPlsO8XG"
+    },
+    {
+      "name": "When We Were Young",
+      "front": "en_jeiPREjAbm"
+    },
+    {
+      "name": "Sky-Blessed Samurai",
+      "front": "en_kDWCKAPLlZ"
+    },
+    {
+      "name": "Imperial Recovery Unit",
+      "front": "en_UqROdKX1wm"
+    },
+    {
+      "name": "Norika Yamazaki, the Poet",
+      "front": "en_XSBtn2NByE"
+    },
+    {
+      "name": "Blade-Blizzard Kitsune",
+      "front": "en_xzk5vk4ilm"
+    },
+    {
+      "name": "Hotshot Mechanic",
+      "front": "en_YQoFLwUuoq"
     }
   ],
   "commons": [
@@ -47,6 +115,62 @@
     {
       "name": "Imperial Subduer",
       "front": "en_6ls2dF3Xls"
+    },
+    {
+      "name": "Imperial Oath",
+      "front": "en_A8XrPZ5Q4s"
+    },
+    {
+      "name": "Regent's Authority",
+      "front": "en_BSKQJDYDC1"
+    },
+    {
+      "name": "Spirited Companion",
+      "front": "en_CijmeqV7fv"
+    },
+    {
+      "name": "Seven-Tail Mentor",
+      "front": "en_IpYcbjJvup"
+    },
+    {
+      "name": "Golden-Tail Disciple",
+      "front": "en_joFsnuIUoN"
+    },
+    {
+      "name": "Eiganjo Exemplar",
+      "front": "en_KKKxbn5Cih"
+    },
+    {
+      "name": "Light the Way",
+      "front": "en_lw5Ry46f2w"
+    },
+    {
+      "name": "Intercessor's Arrest",
+      "front": "en_nGTUqck79S"
+    },
+    {
+      "name": "Lucky Offering",
+      "front": "en_Nh6bKPykJW"
+    },
+    {
+      "name": "Repel the Vile",
+      "front": "en_pbwpkr9rxL"
+    },
+    {
+      "name": "Dragonfly Suit",
+      "front": "en_PjIoVEMPbO"
+    },
+    {
+      "name": "Wanderer's Intervention",
+      "front": "en_RGqc400tIk"
+    },
+    {
+      "name": "Kitsune Ace",
+      "front": "en_sQcO9CDU7i"
+    },
+    {
+      "name": "Ancestral Katana",
+      "front": "en_Ugpol3ZGV0"
     }
   ],
   "lands": [{ "name": "Jungle Hollow", "front": "en_fYTwiGJW8d" }]
