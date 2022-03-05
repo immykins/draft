@@ -16,7 +16,12 @@ class Set {
   // - 10 common
   // - 1 basic land (in neon this includes its dual lands)
   makeBooster() {
-    //this.cards.
+    let booster = this.cards.rares.sort(() => 0.5 - Math.random()).slice(0, 1);
+    booster.push(...this.cards.uncommons.sort(() => 0.5 - Math.random()).slice(0, 3));
+    booster.push(...this.cards.commons.sort(() => 0.5 - Math.random()).slice(0, 10));
+    booster.push(...this.cards.lands.sort(() => 0.5 - Math.random()).slice(0, 1));
+
+    return booster;
   }
 }
 
@@ -25,7 +30,7 @@ class Table extends Component {
   // think about moving some of this logic out of the view
   render() {
     const set = new Set(cardJSON);
-    const cards = set.cards.rares;
+    const cards = set.makeBooster();
 
     return (
       <div id="Table">
