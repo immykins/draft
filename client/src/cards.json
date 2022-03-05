@@ -140,6 +140,26 @@
     {
       "name": "Takenuma, Abandoned Mire",
       "front": "en_2Kui8yfhWH"
+    },
+    {
+      "name": "Eater of Virtue",
+      "front": "en_hNTj2WU71U"
+    },
+    {
+      "name": "Mechatitan Core",
+      "front": "en_BFPgl1kFhZ"
+    },
+    {
+      "name": "Mirror Box",
+      "front": "en_qqR5oJy1Hp"
+    },
+    {
+      "name": "Reckoner Bankbuster",
+      "front": "en_ke8v5shpnm"
+    },
+    {
+      "name": "Surgehacker Mech",
+      "front": "en_6znXe2WMSK"
     }
   ],
   "uncommons": [
@@ -303,6 +323,42 @@
     {
       "name": "Secluded Courtyard",
       "front": "en_62NQeVUZts"
+    },
+    {
+      "name": "Bronze Cudgels",
+      "front": "en_XyLxBG2uco"
+    },
+    {
+      "name": "Circuit Mender",
+      "front": "en_rIw3IFBubW"
+    },
+    {
+      "name": "Containment Construct",
+      "front": "en_5Ek1qzQDtK"
+    },
+    {
+      "name": "High-Speed Hoverbike",
+      "front": "en_YU4eaVMFtG"
+    },
+    {
+      "name": "Patchwork Automaton",
+      "front": "en_1evdMuOGp8"
+    },
+    {
+      "name": "Reito Sentinel",
+      "front": "en_OIJVYf2D4B"
+    },
+    {
+      "name": "Runaway Trash-Bot",
+      "front": "en_89vsTOosY3"
+    },
+    {
+      "name": "Towashi Guide-Bot",
+      "front": "en_o2USFcgGJZ"
+    },
+    {
+      "name": "Walking Skyscraper",
+      "front": "en_KH4dnxbJE0"
     }
   ],
   "commons": [
@@ -522,6 +578,50 @@
     {
       "name": "You Are Already Dead",
       "front": "en_VbkgkRf48k"
+    },
+    {
+      "name": "Automated Artificer",
+      "front": "en_s9mBcrm7Cm"
+    },
+    {
+      "name": "Brute Suit",
+      "front": "en_41ERlu6KBa"
+    },
+    {
+      "name": "Dramatist's Puppet",
+      "front": "en_wh5GFjkOpw"
+    },
+    {
+      "name": "Ecologist's Terrarium",
+      "front": "en_FGlslyxIwr"
+    },
+    {
+      "name": "Iron Apprentice",
+      "front": "en_AIYNNU4erA"
+    },
+    {
+      "name": "Network Terminal",
+      "front": "en_IIkxzuEfxr"
+    },
+    {
+      "name": "Ninja's Kunai",
+      "front": "en_7Y99Yw6NkS"
+    },
+    {
+      "name": "Papercraft Decoy",
+      "front": "en_8RkW64I1HQ"
+    },
+    {
+      "name": "Searchlight Companion",
+      "front": "en_uex2atZr6R"
+    },
+    {
+      "name": "Shrine Steward",
+      "front": "en_NAa3ct1P3i"
+    },
+    {
+      "name": "Thundersteel Colossus",
+      "front": "en_eqnrqDtFmF"
     }
   ],
   "lands": [
