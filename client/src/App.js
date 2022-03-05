@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import Card from "./Card";
+import cardJSON from "./cards.json";
 
+// this logic needs to be moved outside of the view
 class Set {
   // instantiate by injecting a json of the cards for a set
-  constructor(cardsJSON) {
-    this.cards = JSON.parse(cardsJSON);
+  constructor(json) {
+    this.cards = json;
   }
 
   // returns a random draft booster from the set. A draft booster includes 15 cards with no duplicates:
@@ -19,15 +21,11 @@ class Set {
 }
 
 class Table extends Component {
+
+  // think about moving some of this logic out of the view
   render() {
-    const cards = [
-      { name: "name", front: "en_9ronA5Xr9N" },
-      { front: "en_fYTwiGJW8d" },
-      { front: "en_vp8xmsaSaM", back: "en_w2zhVpEvxs" },
-      { front: "en_u5HnLDTo0g", back: "en_ekujQ2FTdj" },
-      { front: "en_gEnWwqIdOE", back: "en_J5uEbSmsIj" },
-      { name: "name", front: "test" }
-    ];
+    const set = new Set(cardJSON);
+    const cards = set.cards.rares;
 
     return (
       <div id="Table">
