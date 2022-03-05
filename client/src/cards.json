@@ -128,6 +128,18 @@
     {
       "name": "Tatsunari, Toad Rider",
       "front": "en_Sock8V5X2x"
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "front": "en_KIJIDtVSlD"
+    },
+    {
+      "name": "Sokenzan, Crucible of Defiance",
+      "front": "en_9dNEBMi40b"
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "front": "en_2Kui8yfhWH"
     }
   ],
   "uncommons": [
@@ -279,6 +291,18 @@
     {
       "name": "Unforgiving One",
       "front": "en_POJ6y1reAQ"
+    },
+    {
+      "name": "Mech Hangar",
+      "front": "en_OiTxyWJAb1"
+    },
+    {
+      "name": "Roadside Reliquary",
+      "front": "en_krYR51uI4O"
+    },
+    {
+      "name": "Secluded Courtyard",
+      "front": "en_62NQeVUZts"
     }
   ],
   "commons": [
@@ -516,6 +540,50 @@
     {
       "name": "Dismal Backwater",
       "front": "en_I57aq5cCne"
+    },
+    {
+      "name": "Rugged Highlands",
+      "front": "en_lau2utCglL"
+    },
+    {
+      "name": "Scoured Barrens",
+      "front": "en_ZDPQwR7qx2"
+    },
+    {
+      "name": "Siftwater Cliffs",
+      "front": "en_rosXuFRjBL"
+    },
+    {
+      "name": "Thornwood Falls",
+      "front": "en_2mV0B5KsLe"
+    },
+    {
+      "name": "Tranquil Cove",
+      "front": "en_CQQgDZFtse"
+    },
+    {
+      "name": "Wind-Scarred Crag",
+      "front": "en_4ykwoobMbM"
+    },
+    {
+      "name": "Plains",
+      "front": "en_HxYHZvjG6t"
+    },
+    {
+      "name": "Island",
+      "front": "en_AcXcUeJiVN"
+    },
+    {
+      "name": "Swamp",
+      "front": "en_TyWirQbEMp"
+    },
+    {
+      "name": "Mountain",
+      "front": "en_G5KHchQWmd"
+    },
+    {
+      "name": "Forest",
+      "front": "en_kI50uxGtvF"
     }
   ]
 }
