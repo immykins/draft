@@ -6,11 +6,11 @@ const Card = ({ card }) => {
     <div className={cx({ card: true, flippable: !!card.back })}>
       <div className="card-content">
         <div className="front">
-          <img src={require(`./cards/${card.front}.png`)} />
+          <img src={require(`./cards/${card.front}.png`)} alt={card.name} />
         </div>
         {card.back && (
           <div className="back">
-            <img src={require(`./cards/${card.back}.png`)} />
+            <img src={require(`./cards/${card.back}.png`)} alt={card.name} />
           </div>
         )}
       </div>
