@@ -22,7 +22,7 @@ const Card = ({ card }) => {
         </div>
         {card.back && (
           <div className="back">
-            {cardImage(card.front, `back side of ${card.name}`)}
+            {cardImage(card.back, `back side of ${card.name}`)}
           </div>
         )}
       </div>
