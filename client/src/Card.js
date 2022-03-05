@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import cx from "classnames";
 
 const Card = ({ card }) => {
-  const frontImage = (path, alt) => {
+  const cardImage = (file, alt) => {
     try {
       return (
-        <img src={require(`./cards/${card.front}.png`)} alt={alt} />
+        <img src={require(`./cards/${file}.png`)} alt={alt} />
       )
     } catch {
       return (
@@ -18,11 +18,11 @@ const Card = ({ card }) => {
     <div className={cx({ card: true, flippable: !!card.back })}>
       <div className="card-content">
         <div className="front">
-          {frontImage(`./cards/${card.front}.png`, card.name)}
+          {cardImage(card.front, card.name)}
         </div>
         {card.back && (
           <div className="back">
-            <img src={require(`./cards/${card.back}.png`)} alt={`back side of ${card.name}`} />
+            {cardImage(card.front, `back side of ${card.name}`)}
           </div>
         )}
       </div>
