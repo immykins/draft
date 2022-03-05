@@ -52,6 +52,42 @@
     {
       "name": "Eiganjo, Seat of the Empire",
       "front": "en_LnG8BkXwqZ"
+    },
+    {
+      "name": "Invoke the Winds",
+      "front": "en_Rnsg8deevj"
+    },
+    {
+      "name": "Jin-Gitaxias, Progress Tyrant",
+      "front": "en_SZPYldOlO4"
+    },
+    {
+      "name": "Kairi, the Swirling Sky",
+      "front": "en_XOd058dIrU"
+    },
+    {
+      "name": "March of Swirling Mist",
+      "front": "en_OWQ9AzAYEi"
+    },
+    {
+      "name": "Mindlink Mech",
+      "front": "en_oRRJc51TTm"
+    },
+    {
+      "name": "The Reality Chip",
+      "front": "en_8Ca1oypM59"
+    },
+    {
+      "name": "Tameshi, Reality Architect",
+      "front": "en_0sBFUgEZAU"
+    },
+    {
+      "name": "Tezzeret, Betrayer of Flesh",
+      "front": "en_djAcod0qsW"
+    },
+    {
+      "name": "Thousand-Faced Shadow",
+      "front": "en_6MZNU7bLl9"
     }
   ],
   "uncommons": [
@@ -119,6 +155,46 @@
     {
       "name": "Awakened Awareness",
       "front": "en_zDbpNDrPyo"
+    },
+    {
+      "name": "Covert Technician",
+      "front": "en_4ZUKS49BMw"
+    },
+    {
+      "name": "Discover the Impossible",
+      "front": "en_bTh3OLCUoZ"
+    },
+    {
+      "name": "Essence Capture",
+      "front": "en_1VCDdAGTJG"
+    },
+    {
+      "name": "Futurist Operative",
+      "front": "en_8CldkGVYKL"
+    },
+    {
+      "name": "Go-Shintai of Lost Wisdom",
+      "front": "en_POMtnmqRsn"
+    },
+    {
+      "name": "Mobilizer Mech",
+      "front": "en_S9VMjUBom3"
+    },
+    {
+      "name": "Prosperous Thief",
+      "front": "en_yNTrOqjzLX"
+    },
+    {
+      "name": "Reality Heist",
+      "front": "en_eBOj9IJ8Tt"
+    },
+    {
+      "name": "Replication Specialist",
+      "front": "en_01xv6ARXeV"
+    },
+    {
+      "name": "Thirst for Knowledge",
+      "front": "en_6U43sqqeX7"
     }
   ],
   "commons": [
@@ -198,6 +274,74 @@
     {
       "name": "Armguard Familiar",
       "front": "en_8l4PCIUOCa"
+    },
+    {
+      "name": "Disruption Protocol",
+      "front": "en_AOWNy3i8uL"
+    },
+    {
+      "name": "Futurist Sentinel",
+      "front": "en_Tgh8QugPNL"
+    },
+    {
+      "name": "Guardians of Oboro",
+      "front": "en_HoxXTunb8y"
+    },
+    {
+      "name": "Mirrorshell Crab",
+      "front": "en_OlZF208NhM"
+    },
+    {
+      "name": "Mnemonic Sphere",
+      "front": "en_U4ye3FhPKZ"
+    },
+    {
+      "name": "Moon-Circuit Hacker",
+      "front": "en_n9aQJORKyB"
+    },
+    {
+      "name": "Moonfolk Puzzlemaker",
+      "front": "en_t7XKS5xaMO"
+    },
+    {
+      "name": "Moonsnare Prototype",
+      "front": "en_w4w7m15iab"
+    },
+    {
+      "name": "Moonsnare Specialist",
+      "front": "en_YQn86fTYOG"
+    },
+    {
+      "name": "Network Disruptor",
+      "front": "en_8YTwMVXgKC"
+    },
+    {
+      "name": "Planar Incision",
+      "front": "en_h2HZBagQev"
+    },
+    {
+      "name": "Saiba Trespassers",
+      "front": "en_tZjCO2nlut"
+    },
+    {
+      "name": "Short Circuit",
+      "front": "en_hpkgBqJCH8"
+    },
+    {
+      "name": "Skyswimmer Koi",
+      "front": "en_65Uda5mGcy"
+    },
+    {
+      "name": "Spell Pierce",
+      "front": "en_hepF12TjaE"
+    },
+    {
+      "name": "Suit Up",
+      "front": "en_6a6hev5Brd"
+    },
+    {
+      "name": "Tamiyo's Compleation",
+      "front": "en_1oNksa6XG1"
     }
   ],
   "lands": [
