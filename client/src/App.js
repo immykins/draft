@@ -48,9 +48,9 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.callBackendAPI()
-      .then((res) => this.setState({ data: res.express }))
-      .catch((err) => console.log(err));
+    // this.callBackendAPI()
+    //   .then((res) => this.setState({ data: res.express }))
+    //   .catch((err) => console.log(err));
   }
   // fetching the GET route from the Express server which matches the GET route from server.js
   callBackendAPI = async () => {
@@ -64,7 +64,6 @@ class App extends Component {
   };
 
   render() {
-    // this is rendering twice because of the backend call - won't matter once card pack is pushed to the backend
     return (
       <div className="App">
         <header className="App-header">
