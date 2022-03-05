@@ -10,7 +10,7 @@ const Card = ({ card }) => {
         </div>
         {card.back && (
           <div className="back">
-            <img src={require(`./cards/${card.back}.png`)} alt={card.name} />
+            <img src={require(`./cards/${card.back}.png`)} alt={`back side of ${card.name}`} />
           </div>
         )}
       </div>

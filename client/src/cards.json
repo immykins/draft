@@ -276,6 +276,46 @@
     {
       "name": "Weaver of Harmony",
       "front": "en_YT0ic6Ipzu"
+    },
+    {
+      "name": "Tribute to Horobi",
+      "front": "en_Pp0bkQpLmv",
+      "back": "en_aSQWAePDK2"
+    },
+    {
+      "name": "Restoration of Eiganjo",
+      "front": "en_0pKZdAz1UZ",
+      "back": "en_7YVh1N58hd"
+    },
+    {
+      "name": "Inventive Iteration",
+      "front": "en_90nKwZ2M2y",
+      "back": "en_jFmT5B4Vt2"
+    },
+    {
+      "name": "Fable of the Mirror-Breaker",
+      "front": "en_FtLZp5L2AU",
+      "back": "en_ALiTtSvBJZ"
+    },
+    {
+      "name": "The Dragon-Kami Reborn",
+      "front": "en_SeMA6kIpvn",
+      "back": "en_9j2sS1UwNH"
+    },
+    {
+      "name": "Jugan Defends the Temple",
+      "front": "en_QU0UJgNirR",
+      "back": "en_AeTfS7Tk28"
+    },
+    {
+      "name": "Hidetsuge Consumes All",
+      "front": "en_1gDZ0XVIgP",
+      "back": "en_xRIzoeJMp7"
+    },
+    {
+      "name": "The Kami War",
+      "front": "en_uxN4TYeSLb",
+      "back": "en_jdnPG0A2lH"
     }
   ],
   "uncommons": [
@@ -603,6 +643,41 @@
     {
       "name": "Webspinner Cuff",
       "front": "en_rvZAMlB48i"
+    },
+    {
+      "name": "The Fall of Lord Konda",
+      "front": "en_7TJNFtrUAP",
+      "back": "en_S5V6DyoPf2"
+    },
+    {
+      "name": "Michiko's Reign of Truth",
+      "front": "en_1P84ueds0m",
+      "back": "en_lkT3h5GftG"
+    },
+    {
+      "name": "Behold the Unspeakable",
+      "front": "en_9LBuHgH0CH",
+      "back": "en_mBtU6vEPux"
+    },
+    {
+      "name": "Life of Toshiro Umezawa",
+      "front": "en_hZT5h73wgE",
+      "back": "en_85OQ6CvkTR"
+    },
+    {
+      "name": "Kumano Faces Kakkazan",
+      "front": "en_s4O0PnIYYm",
+      "back": "en_qboRbshjfG"
+    },
+    {
+      "name": "Azusa's Many Journeys",
+      "front": "en_2RkqHBxto4",
+      "back": "en_Zoe9NrLF3D"
+    },
+    {
+      "name": "Boseiju Reaches Skyward",
+      "front": "en_YlEBpqG7rm",
+      "back": "en_iUjIndqgOP"
     }
   ],
   "commons": [
@@ -965,7 +1040,7 @@
     },
     {
       "name": "Fang of Shigeki",
-      "front": "en_YIvTmdXVJv",
+      "front": "en_YIvTmdXVJv"
     },
     {
       "name": "Favor of Jukai",
@@ -1010,6 +1085,31 @@
     {
       "name": "Tamiyo's Safekeeping",
       "front": "en_HfC0x8SXzi"
+    },
+    {
+      "name": "Era of Enlightenment",
+      "front": "en_XRQOdJqVOi",
+      "back": "en_9y3F4hT7wk"
+    },
+    {
+      "name": "Okiba Reckoner Raid",
+      "front": "en_SL9cgJWOSm",
+      "back": "en_5I7e6wsly5"
+    },
+    {
+      "name": "Tales of Master Seshiro",
+      "front": "en_ueKtTK4nv2",
+      "back": "en_bVZlpsrl5X"
+    },
+    {
+      "name": "The Modern Age",
+      "front": "en_4ju6bBCdKy",
+      "back": "en_DC7jxP3I2F"
+    },
+    {
+      "name": "The Shattered States Era",
+      "front": "en_6Tf1Pg1B3g",
+      "back": "en_b0V8FypPln"
     }
   ],
   "lands": [
