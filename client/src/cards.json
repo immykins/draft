@@ -88,6 +88,46 @@
     {
       "name": "Thousand-Faced Shadow",
       "front": "en_6MZNU7bLl9"
+    },
+    {
+      "name": "Biting-Palm Ninja",
+      "front": "en_maXhyKMZyW"
+    },
+    {
+      "name": "Blade of the Oni",
+      "front": "en_MdxaWtLGX2"
+    },
+    {
+      "name": "Hidetsugu, Devouring Chaos",
+      "front": "en_h0qnaNUThS"
+    },
+    {
+      "name": "Invoke Despair",
+      "front": "en_CSfeLhsfId"
+    },
+    {
+      "name": "Junji, the Midnight Sky",
+      "front": "en_ELifu17VJY"
+    },
+    {
+      "name": "March of Wretched Sorrow",
+      "front": "en_YpTzIXsgfN"
+    },
+    {
+      "name": "Mukotai Soulripper",
+      "front": "en_o1GiDDDM1N"
+    },
+    {
+      "name": "Nashi, Moon Sage's Scion",
+      "front": "en_hnhiHZvybT"
+    },
+    {
+      "name": "Soul Transfer",
+      "front": "en_vT271l0gpV"
+    },
+    {
+      "name": "Tatsunari, Toad Rider",
+      "front": "en_Sock8V5X2x"
     }
   ],
   "uncommons": [
@@ -195,6 +235,50 @@
     {
       "name": "Thirst for Knowledge",
       "front": "en_6U43sqqeX7"
+    },
+    {
+      "name": "Assassin's Ink",
+      "front": "en_xOIQrvC7ZB"
+    },
+    {
+      "name": "Dockside Chef",
+      "front": "en_uf6qi1T7kz"
+    },
+    {
+      "name": "Dokuchi Silencer",
+      "front": "en_CgVjZtgI5c"
+    },
+    {
+      "name": "Enormous Energy Blade",
+      "front": "en_4X0Y6IB4SM"
+    },
+    {
+      "name": "Go-Shintai of Hidden Cruelty",
+      "front": "en_jOShD6eCqi"
+    },
+    {
+      "name": "Gravelighter",
+      "front": "en_tNxXIl8mfV"
+    },
+    {
+      "name": "Leech Gauntlet",
+      "front": "en_oi3jb0PK5l"
+    },
+    {
+      "name": "Malicious Malfunction",
+      "front": "en_xNWaoQ23Q4"
+    },
+    {
+      "name": "Nezumi Prowler",
+      "front": "en_9B5FIVPDRx"
+    },
+    {
+      "name": "Okiba Salvage",
+      "front": "en_RHJy3Rbvzi"
+    },
+    {
+      "name": "Unforgiving One",
+      "front": "en_POJ6y1reAQ"
     }
   ],
   "commons": [
@@ -342,6 +426,78 @@
     {
       "name": "Tamiyo's Compleation",
       "front": "en_1oNksa6XG1"
+    },
+    {
+      "name": "Chainflail Centipede",
+      "front": "en_MZyqs9rGbv"
+    },
+    {
+      "name": "Clawing Torment",
+      "front": "en_u9LnO7q2rU"
+    },
+    {
+      "name": "Debt to the Kami",
+      "front": "en_vRlrBWsLBB"
+    },
+    {
+      "name": "Dokuchi Shadow-Walker",
+      "front": "en_dqljsL0gfA"
+    },
+    {
+      "name": "Inkrise Infiltrator",
+      "front": "en_CkKepa9ff4"
+    },
+    {
+      "name": "Kaito's Pursuit",
+      "front": "en_ny8SxldEGh"
+    },
+    {
+      "name": "Kami of Restless Shadows",
+      "front": "en_R8a5s2hZs4"
+    },
+    {
+      "name": "Kami of Terrible Secrets",
+      "front": "en_VpSesUK3Hl"
+    },
+    {
+      "name": "Lethal Exploit",
+      "front": "en_qu9tUW61DJ"
+    },
+    {
+      "name": "Mukotai Ambusher",
+      "front": "en_TRa5RCRga5"
+    },
+    {
+      "name": "Nezumi Bladeblesser",
+      "front": "en_QgbxGCNBYt"
+    },
+    {
+      "name": "Reckoner Shakedown",
+      "front": "en_KCwIFYTCpo"
+    },
+    {
+      "name": "Reckoner's Bargain",
+      "front": "en_HJa2WwnaUI"
+    },
+    {
+      "name": "Return to Action",
+      "front": "en_Kzghwb5SxK"
+    },
+    {
+      "name": "Twisted Embrace",
+      "front": "en_rucxZp8I3o"
+    },
+    {
+      "name": "Undercity Scrounger",
+      "front": "en_P4UJB02SjZ"
+    },
+    {
+      "name": "Virus Beetle",
+      "front": "en_tL5t4YdFTB"
+    },
+    {
+      "name": "You Are Already Dead",
+      "front": "en_VbkgkRf48k"
     }
   ],
   "lands": [
