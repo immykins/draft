@@ -64,6 +64,7 @@ class App extends Component {
   };
 
   render() {
+    // this is rendering twice because of the backend call - won't matter once card pack is pushed to the backend
     return (
       <div className="App">
         <header className="App-header">
