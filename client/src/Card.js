@@ -2,11 +2,23 @@ import React, { useState } from "react";
 import cx from "classnames";
 
 const Card = ({ card }) => {
+  const frontImage = (path, alt) => {
+    try {
+      return (
+        <img src={require(`./cards/${card.front}.png`)} alt={alt} />
+      )
+    } catch {
+      return (
+        <img alt={card.name} />
+      )
+    }
+  }
+
   return (
     <div className={cx({ card: true, flippable: !!card.back })}>
       <div className="card-content">
         <div className="front">
-          <img src={require(`./cards/${card.front}.png`)} alt={card.name} />
+          {frontImage(`./cards/${card.front}.png`, card.name)}
         </div>
         {card.back && (
           <div className="back">
