@@ -44,10 +44,21 @@
     {
       "name": "March of the Otherworldly Light",
       "front": "en_UJRB7e6nzx"
+    },
+    {
+      "name": "Boseiju, Who Endures",
+      "front": "en_fhrNODWDSv"
+    },
+    {
+      "name": "Eiganjo, Seat of the Empire",
+      "front": "en_LnG8BkXwqZ"
     }
   ],
   "uncommons": [
-    { "name": "Colossal Skyturtle", "front": "en_9ronA5Xr9N" },
+    {
+      "name": "Colossal Skyturtle",
+      "front": "en_9ronA5Xr9N"
+    },
     {
       "name": "The Long Reach of Night",
       "front": "en_vp8xmsaSaM",
@@ -173,5 +184,22 @@
       "front": "en_Ugpol3ZGV0"
     }
   ],
-  "lands": [{ "name": "Jungle Hollow", "front": "en_fYTwiGJW8d" }]
+  "lands": [
+    {
+      "name": "Jungle Hollow",
+      "front": "en_fYTwiGJW8d"
+    },
+    {
+      "name": "Bloodfell Caves",
+      "front": "en_ZYTSbPUyde"
+    },
+    {
+      "name": "Blossoming Sands",
+      "front": "en_SkYsipzywj"
+    },
+    {
+      "name": "Dismal Backwater",
+      "front": "en_I57aq5cCne"
+    }
+  ]
 }
