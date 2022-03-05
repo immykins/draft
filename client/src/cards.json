@@ -107,6 +107,18 @@
     {
       "name": "Hotshot Mechanic",
       "front": "en_YQoFLwUuoq"
+    },
+    {
+      "name": "Acquisition Octopus",
+      "front": "en_BfUlLNtHdi"
+    },
+    {
+      "name": "Anchor to Reality",
+      "front": "en_WfdZpeX2N0"
+    },
+    {
+      "name": "Awakened Awareness",
+      "front": "en_zDbpNDrPyo"
     }
   ],
   "commons": [
@@ -182,6 +194,10 @@
     {
       "name": "Ancestral Katana",
       "front": "en_Ugpol3ZGV0"
+    },
+    {
+      "name": "Armguard Familiar",
+      "front": "en_8l4PCIUOCa"
     }
   ],
   "lands": [
