@@ -25,21 +25,21 @@ class Set {
   }
 }
 
-class Table extends Component {
+const Table = () => {
+  // const [cards, setCards] = React.useState(0);
 
   // think about moving some of this logic out of the view
-  render() {
-    const set = new Set(cardJSON);
-    const cards = set.makeBooster();
+  // return() {
+  const set = new Set(cardJSON);
+  const cards = set.makeBooster();
 
-    return (
-      <div id="Table">
-        {cards.map((card, index) => {
-          return <Card card={card} key={index} />;
-        })}
-      </div>
-    );
-  }
+  return (
+    <div id="Table">
+      {cards.map((card, index) => {
+        return <Card card={card} key={index} />;
+      })}
+    </div>
+  );
 }
 
 class App extends Component {
