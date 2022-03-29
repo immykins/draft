@@ -26,6 +26,7 @@ class Set {
 }
 
 const Table = () => {
+  const [currentCard, selectCard] = React.useState(null);
   // const [cards, setCards] = React.useState(0);
 
   // think about moving some of this logic out of the view
@@ -35,11 +36,26 @@ const Table = () => {
 
   return (
     <div id="Table">
-      {cards.map((card, index) => {
-        return <Card card={card} key={index} />;
-      })}
+      {currentCard &&
+        <div>
+          <button type="button">pick card</button>
+        </div>
+      }
+      <SetDisplay cards={cards} currentCard={currentCard} onCardClick={selectCard} />
     </div>
   );
+}
+
+const SetDisplay = ({ cards, currentCard, onCardClick }) => {
+  return (
+    <div id="set-display">
+      {
+        cards.map((card, index) => {
+          return <Card card={card} key={index} currentCard={currentCard} onCardClick={onCardClick} />;
+        })
+      }
+    </div>
+  )
 }
 
 class App extends Component {
