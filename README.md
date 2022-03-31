@@ -18,6 +18,7 @@ Use `npm run dev` to run both the node server backend and the react client.
 - [ ] Persist draft state between browser reloading
 - [ ] Show chosen cards at bottom / side of page (swap between two?)
 - [ ] Scale UI by window size
+- [ ] Failure states + alert user on lost connection
 - [ ] Milestone: single-user drafting
 - [ ] Multi-user concurrent drafting
 - [ ] Deckbuilding
