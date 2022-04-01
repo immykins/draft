@@ -1,38 +1,20 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./App.css";
 import Card from "./Card";
-import cardJSON from "./cards.json";
-
-// this logic needs to be moved outside of the view
-class Set {
-  // instantiate by injecting a json of the cards for a set
-  constructor(json) {
-    this.cards = json;
-  }
-
-  // returns a random draft booster from the set. A draft booster includes 15 cards with no duplicates:
-  // - 1 rare or mythic rare
-  // - 3 uncommon
-  // - 10 common
-  // - 1 basic land (in neon this includes its dual lands)
-  makeBooster() {
-    let booster = this.cards.rares.sort(() => 0.5 - Math.random()).slice(0, 1);
-    booster.push(...this.cards.uncommons.sort(() => 0.5 - Math.random()).slice(0, 3));
-    booster.push(...this.cards.commons.sort(() => 0.5 - Math.random()).slice(0, 10));
-    booster.push(...this.cards.lands.sort(() => 0.5 - Math.random()).slice(0, 1));
-
-    return booster;
-  }
-}
+import axios from "axios";
 
 const Table = () => {
+  const [pack, setPack] = React.useState([]);
   const [currentCard, selectCard] = React.useState(null);
-  // const [cards, setCards] = React.useState(0);
 
-  // think about moving some of this logic out of the view
-  // return() {
-  const set = new Set(cardJSON);
-  const cards = set.makeBooster();
+  useEffect(() => {
+    axios.post('/drafts', {
+    }).then((response) => {
+      setPack(JSON.parse(response.data).cards);
+    }).catch((error => {
+      console.log(error);
+    }));
+  }, []);
 
   return (
     <div id="Table">
@@ -41,7 +23,7 @@ const Table = () => {
           <button type="button">pick card</button>
         </div>
       }
-      <SetDisplay cards={cards} currentCard={currentCard} onCardClick={selectCard} />
+      <SetDisplay cards={pack} currentCard={currentCard} onCardClick={selectCard} />
     </div>
   );
 }

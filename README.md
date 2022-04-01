@@ -13,7 +13,7 @@ Use `npm run dev` to run both the node server backend and the react client.
 
 ### Next steps
 
-- [ ] New pack generation through the backend / over HTTP
+- [X] New pack generation through the backend / over HTTP
 - [ ] Add timer for draft picks
 - [ ] Automatically suggest then pick cards when timer is low
 - [ ] "Smart" automatic picks (weight higher-value cards that fit chosen colors)
