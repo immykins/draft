@@ -38,20 +38,17 @@ const SetDisplay = ({ cards, currentCard, onCardClick }) => {
       }
     </div>
   )
-}
+};
 
-class App extends Component {
-  state = {
-    data: null,
-  };
-
-  componentDidMount() {
+const App = () => {
+  useEffect(() => {
     // this.callBackendAPI()
     //   .then((res) => this.setState({ data: res.express }))
     //   .catch((err) => console.log(err));
-  }
+  });
+
   // fetching the GET route from the Express server which matches the GET route from server.js
-  callBackendAPI = async () => {
+  const callBackendAPI = async () => {
     const response = await fetch("/express_backend");
     const body = await response.json();
 
@@ -61,16 +58,14 @@ class App extends Component {
     return body;
   };
 
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <Table />
-        </header>
-        {/* <p className="App-intro">{this.state.data}</p> */}
-      </div>
-    );
-  }
-}
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Table />
+      </header>
+      {/* <p className="App-intro">{this.state.data}</p> */}
+    </div>
+  );
+};
 
 export default App;
