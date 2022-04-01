@@ -20,4 +20,6 @@ class Set {
   }
 }
 
-module.exports = Set
+export default Set;
+
+// module.exports = Set

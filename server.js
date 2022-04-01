@@ -1,6 +1,6 @@
-const router = require('./src/routes');
+import express from "express";
+import router from "./src/routes.js";
 
-const express = require('express'); //Line 1
 const app = express(); //Line 2
 const port = process.env.PORT || 5000; //Line 3
 

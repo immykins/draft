@@ -1,7 +1,6 @@
 // const programmingLanguages = require('../services/programmingLanguages.service');
-// const
-const Set = require('./set');
-const cardJSON = require('./cards.json');
+import Set from "./set.js";
+import * as cardJSON from "./cards.json" assert { type: 'json' };
 
 async function create(req, res, next) {
   try {
@@ -50,6 +49,4 @@ async function create(req, res, next) {
 //   }
 // }
 
-module.exports = {
-  create
-};
+export { create };

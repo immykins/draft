@@ -1,9 +1,11 @@
-const express = require('express');
+import express from 'express';
+// import router from express.Router
+import * as draftController from './drafts.controller.js';
+
 const router = express.Router();
-const draftController = require('./drafts.controller');
 
 router.post('/', draftController.create);
 
 // router.get('/:id', draftController.get);
 
-module.exports = router
+export default router;
