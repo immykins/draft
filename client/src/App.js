@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Card from "./Card";
 import axios from "axios";
