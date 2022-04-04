@@ -37,21 +37,17 @@
   border-image-slice: 1;
 }
 
-.card {
-  width: 265px;
-  height: 370px;
-  transition: all 0.30s ease-in-out;
-}
-
-.card.selected {
-  box-shadow: 0 0 10px rgb(255, 105, 210);
-}
-
 .card-content {
   position: relative;
 
   transition: transform 1.2s;
   transform-style: preserve-3d;
+  width: 265px;
+  height: 370px;
+}
+
+.selected .card-content {
+  box-shadow: 0 0 10px rgb(255, 105, 210);
 }
 
 .flippable:hover .card-content {
