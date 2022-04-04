@@ -1,19 +1,27 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import Card from "./Card";
-import axios from "axios";
 
 const Table = () => {
   const [pack, setPack] = React.useState([]);
   const [currentCard, selectCard] = React.useState(null);
 
+  // abstract this logic outside of the component
   useEffect(() => {
-    axios.post('/drafts', {
+    fetch('/drafts', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: ''
     }).then((response) => {
-      setPack(JSON.parse(response.data).cards);
-    }).catch((error => {
+      return response.json()
+    }).then((data) => {
+      setPack(JSON.parse(data).cards);
+    }).catch((error) => {
       console.log(error);
-    }));
+    });
   }, []);
 
   return (
