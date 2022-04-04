@@ -40,6 +40,11 @@
 .card {
   width: 265px;
   height: 370px;
+  transition: all 0.30s ease-in-out;
+}
+
+.card.selected {
+  box-shadow: 0 0 10px rgb(255, 105, 210);
 }
 
 .card-content {

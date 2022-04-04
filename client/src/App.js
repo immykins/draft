@@ -41,7 +41,8 @@ const SetDisplay = ({ cards, currentCard, onCardClick }) => {
     <div id="set-display">
       {
         cards.map((card, index) => {
-          return <Card card={card} key={index} currentCard={currentCard} onCardClick={onCardClick} />;
+          const selected = currentCard && currentCard.name === card.name
+          return <Card card={card} key={index} selected={selected} onCardClick={onCardClick} />;
         })
       }
     </div>

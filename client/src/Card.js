@@ -1,7 +1,7 @@
 // import React from "react";
 import cx from "classnames";
 
-const Card = ({ card, currentCard, onCardClick }) => {
+const Card = ({ card, selected, onCardClick }) => {
   const cardImage = (file, alt) => {
     try {
       return (
@@ -15,7 +15,7 @@ const Card = ({ card, currentCard, onCardClick }) => {
   }
 
   return (
-    <div onClick={() => { onCardClick(card) }} className={cx({ card: true, flippable: !!card.back })}>
+    <div onClick={() => { onCardClick(card) }} className={cx({ card: true, selected: selected, flippable: !!card.back })}>
       <div className="card-content">
         <div className="front">
           {cardImage(card.front, card.name)}
