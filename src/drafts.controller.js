@@ -1,6 +1,6 @@
 // const programmingLanguages = require('../services/programmingLanguages.service');
 import Set from "./set.js";
-import * as cardJSON from "./cards.json" assert { type: 'json' };
+import cardJSON from "./cards.json" assert { type: 'json' };
 
 async function create(req, res, next) {
   try {

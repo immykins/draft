@@ -7,9 +7,9 @@ This project is [unofficial fan content](https://company.wizards.com/en/legal/fa
 
 ![Example screenshot](screenshot.png)
 
-### Running the project
+### Running the app
 
-Use `npm run dev` to run both the node server backend and the react client.
+Use `npm run` in the root directory and then again in the client directory.
 
 ### Next steps
 
