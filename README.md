@@ -3,8 +3,6 @@ MTG Draft Simulator
 
 Simulator for real-time, multi-user MTG drafting.
 
-This project is [unofficial fan content](https://company.wizards.com/en/legal/fancontentpolicy). Magic: The Gathering and all card images © Wizards of the Coast.
-
 ![Example screenshot](screenshot.png)
 
 ### Running the app
@@ -27,3 +25,5 @@ Use `npm run` in the root directory and then again in the client directory.
 - [ ] Store draft history
 - [ ] Shareable links
 - [ ] "Replay" draft history to show picks
+
+This project is [unofficial fan content](https://company.wizards.com/en/legal/fancontentpolicy). Magic: The Gathering and all card images © Wizards of the Coast.
