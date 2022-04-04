@@ -49,29 +49,11 @@ const SetDisplay = ({ cards, currentCard, onCardClick }) => {
 };
 
 const App = () => {
-  useEffect(() => {
-    // this.callBackendAPI()
-    //   .then((res) => this.setState({ data: res.express }))
-    //   .catch((err) => console.log(err));
-  });
-
-  // fetching the GET route from the Express server which matches the GET route from server.js
-  const callBackendAPI = async () => {
-    const response = await fetch("/express_backend");
-    const body = await response.json();
-
-    if (response.status !== 200) {
-      throw Error(body.message);
-    }
-    return body;
-  };
-
   return (
     <div className="App">
       <header className="App-header">
         <Table />
       </header>
-      {/* <p className="App-intro">{this.state.data}</p> */}
     </div>
   );
 };
