@@ -31,23 +31,17 @@ const Table = () => {
           <button type="button">pick card</button>
         </div>
       }
-      <SetDisplay cards={pack} currentCard={currentCard} onCardClick={selectCard} />
+      <div id="set-display">
+        {
+          pack.map((card, index) => {
+            const selected = currentCard && currentCard.name === card.name
+            return <Card card={card} key={index} selected={selected} onCardClick={selectCard} />;
+          })
+        }
+      </div>
     </div>
   );
 }
-
-const SetDisplay = ({ cards, currentCard, onCardClick }) => {
-  return (
-    <div id="set-display">
-      {
-        cards.map((card, index) => {
-          const selected = currentCard && currentCard.name === card.name
-          return <Card card={card} key={index} selected={selected} onCardClick={onCardClick} />;
-        })
-      }
-    </div>
-  )
-};
 
 const App = () => {
   return (
