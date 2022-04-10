@@ -44,6 +44,8 @@
   transform-style: preserve-3d;
   width: 265px;
   height: 370px;
+
+  border-radius: 11px;
 }
 
 .selected .card-content {
