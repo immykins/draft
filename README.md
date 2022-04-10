@@ -1,5 +1,4 @@
-MTG Draft Simulator
-===
+# MTG Draft Simulator
 
 Simulator for real-time, multi-user MTG drafting.
 
@@ -9,9 +8,11 @@ Simulator for real-time, multi-user MTG drafting.
 
 Use `npm run` in the root directory and then again in the client directory.
 
+This project makes use of experimental node features in Node 17.x and won't run with current stable Node (16.x).
+
 ### Next steps
 
-- [X] New pack generation through the backend / over HTTP
+- [x] New pack generation through the backend / over HTTP
 - [ ] Add timer for draft picks
 - [ ] Automatically suggest then pick cards when timer is low
 - [ ] "Smart" automatic picks (weight higher-value cards that fit chosen colors)
