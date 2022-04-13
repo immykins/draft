@@ -1,19 +1,19 @@
-import "./App.css";
-import React, { useEffect } from "react";
-import Table from "./Table";
+import './App.css';
+import React, { useEffect } from 'react';
+import Table from './Table';
 
 const App = () => {
   const [pack, setPack] = React.useState([]);
 
   // abstract this logic outside of the component
   useEffect(() => {
-    fetch("/drafts", {
-      method: "POST",
+    fetch('/drafts', {
+      method: 'POST',
       headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
       },
-      body: "",
+      body: '',
     })
       .then((response) => {
         return response.json();
