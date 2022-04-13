@@ -69,20 +69,21 @@
 }
 
 .timer-container {
-  height: 50px;
-  border: 1px solid black;
+  height: 30px;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
 }
 
 .timer {
-  /* color: blue; */
   width: 50%;
   height: 100%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .timer-bar {
-  background-color: green;
+  background: linear-gradient(to bottom, lightgreen, darkgreen);
   height: 100%;
+  transition: width 1.5s;
+  font-size: 1.5rem;
 }

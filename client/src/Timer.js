@@ -23,7 +23,7 @@ const Timer = ({ initial }) => {
     <div className="timer-container">
       <div className="timer">
         <div className="timer-bar" style={timerStyle}>
-          {time}
+          {time || ''}
         </div>
       </div>
     </div>
