@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.2rem 0.5rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .rainbow-border {
@@ -44,7 +44,6 @@
   transform-style: preserve-3d;
   width: 265px;
   height: 370px;
-
   border-radius: 11px;
 }
 
@@ -67,4 +66,23 @@
 
 .back {
   transform: rotateY(180deg);
+}
+
+.timer-container {
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  /* color: blue; */
+  width: 50%;
+  height: 100%;
+  border: 1px solid pink;
+}
+
+.timer-bar {
+  background-color: green;
+  height: 100%;
 }

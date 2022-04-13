@@ -2,13 +2,13 @@ import React from "react";
 import Card from "./Card";
 import Timer from "./Timer";
 
-// Table should be kept as dumb as possible. It just knows how to display cards + timer; card selection logic is passed into it
+// Table should be kept as dumb as possible. It's focused on displaying card info; all cards + selection logic should be passed down.
 const Table = ({ cards }) => {
   const [currentCard, selectCard] = React.useState(null);
 
   return (
     <div id="Table">
-      <Timer />
+      <Timer initial={5} />
       {/* {currentCard &&
         <div>
           <button type="button">pick card</button>
