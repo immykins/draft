@@ -84,6 +84,6 @@
 .timer-bar {
   background: linear-gradient(to bottom, lightgreen, darkgreen);
   height: 100%;
-  transition: width 1.5s;
+  transition: width 1s ease-out;
   font-size: 1.5rem;
 }
